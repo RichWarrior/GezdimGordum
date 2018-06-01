@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:id="@+id/cardView" android:layout_margin="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/textline_style"
+        android:id="@+id/rowsLayout"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/rowsPhoto"
+            android:layout_width="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_height="150dp"
+            android:src="@mipmap/ic_photo_size_select_actual_black_36dp"
+            android:layout_gravity="center"
+            android:padding="2dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/textline_style"/>
+        <TextView
+            android:id="@+id/rowsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Title"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:background="@drawable/textline_style"
+            android:textStyle="bold"
+            android:textSize="17dp"
+            />
+        <TextView
+            android:id="@+id/rowsDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Description"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:background="@drawable/textline_style"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
